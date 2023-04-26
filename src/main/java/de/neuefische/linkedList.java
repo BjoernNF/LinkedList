@@ -60,6 +60,25 @@ public class linkedList {
         return lastElement;
     }
 
+    public void deleteElement(int pos)
+    {
+        listElement temp = root;
+        listElement lastElement = temp;
+        int counter = 0;
+
+        while (temp != null)
+        {
+            if (counter == pos)
+            {
+                lastElement.setNext(temp.next());
+                break;
+            }
+            counter++;
+            lastElement = temp;
+            temp = temp.next();
+        }
+    }
+
     public void printAllElements()
     {
         listElement temp = root;

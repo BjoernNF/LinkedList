@@ -22,4 +22,9 @@ public class listElement {
     {
         return next;
     }
+
+    public void setNext(listElement element)
+    {
+        this.next = element;
+    }
 }
