@@ -5,7 +5,7 @@ public class listElement {
 
     listElement next;
 
-    public addElement(listElement newElement)
+    public void addElement(listElement newElement)
     {
         listElement old = next;
         newElement.next = old;
