@@ -59,4 +59,15 @@ public class linkedList {
         }
         return lastElement;
     }
+
+    public void printAllElements()
+    {
+        listElement temp = root;
+
+        while (temp != null)
+        {
+            System.out.println("Value: " + temp.value);
+            temp = temp.next();
+        }
+    }
 }
