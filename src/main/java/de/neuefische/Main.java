@@ -7,7 +7,7 @@ public class Main {
         linkedList ll = new linkedList(new listElement("test"));
         ll.addElement(new listElement("test2"));
         ll.addElement(new listElement("test3"));
-        ll.deleteElement(1);
+        ll.deleteElement(2);
         System.out.println(ll.countElements());
         ll.printAllElements();
     }

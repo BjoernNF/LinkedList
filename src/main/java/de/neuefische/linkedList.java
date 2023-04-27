@@ -85,7 +85,7 @@ public class linkedList {
 
         while (temp != null)
         {
-            System.out.println("Value: " + temp.value);
+            System.out.println("Value: " + temp.getValue().toString());
             temp = temp.next();
         }
     }
